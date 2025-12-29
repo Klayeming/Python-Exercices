@@ -3,11 +3,16 @@ class merde:
         self.mon = mon
         self.nom2 = nom2
     
-    def getnom():
-        return mon
+    def getnom(self):
+        return self.mon
+    
+    def setnom(self,nom):
+        self.mon = nom
 
+lui = "pop"
+lo="va chier"
+monp = merde(lui,lo)
 
-monp = merde
-
-monp.mon = "pop"
-print(monp.mon)
+print(monp.getnom(), monp.nom2)
+monp.setnom("connard")
+print(monp.getnom())
