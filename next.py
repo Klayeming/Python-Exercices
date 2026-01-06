@@ -16,8 +16,16 @@ def forrange(nbr, nbr2):
     for i in range(nbr, nbr2):
         print(i)
 
-nbr = int(input("Veuillez entre votre nombre: "))
-nbr2 = int(input("Veuillez entre votre nombre: "))
+def tenNextV2_0(nbr):
+    i = nbr +1
+    while i <= (nbr+10):   
+        print(f"{i}")
+        i = i + 1
+
+#nbr = int(input("Veuillez entre votre nombre: "))
+#nbr2 = int(input("Veuillez entre votre nombre: "))
 #tenNext(nbr)
 #tenNextv1_1(nbr)
-forrange(nbr, nbr2)
+#forrange(nbr, nbr2)
+#tenNextV2_0(nbr)
+
