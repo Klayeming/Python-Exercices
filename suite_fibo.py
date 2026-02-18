@@ -8,8 +8,8 @@ def check(n):
         while n <=1:
             n=int(input("Veuillez saisir un rang > 1: "))
             if n > 1:
-                return n
-                break
+                return n        
+                
 def fibo(n):
     upp = 0
     up  = 1
