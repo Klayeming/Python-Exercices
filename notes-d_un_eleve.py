@@ -5,13 +5,12 @@ avec de mention
 
 def verify(lises):
     n = len(lises)
-    ok = False
     for i in range(n):
         if lises[i]>= 0 and lises[i]<=20:
-            ok = True
+            return True
         else:
-            ok = False
-    return ok
+            return False
+
 
 
 Notes = list()

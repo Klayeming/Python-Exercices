@@ -11,12 +11,13 @@ def imposition(age, sexe):
         print("Merde tu es tellemnt fauché que tu es exempté d'impôt 🤦 ")
 
 age = int(input("Veuillez entrer votre age: "))
-print("Choissisez votre sexe votre sexe :\n 1.Masculin 👨\n 2.Féminin 👩\n")
+print("Choisisez votre sexe votre sexe :\n 1.Masculin 👨\n 2.Féminin 👩\n")
 choix = int(input("Choix: "))
 if choix == 1:
     sexe = "M"
 elif choix == 2:
     sexe = "F"
 else:
+    sexe = "Not define"
     print("Mawa pede moko boye")
 imposition(age, sexe)
