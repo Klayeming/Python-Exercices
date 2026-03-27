@@ -1,6 +1,28 @@
+\"\"\"\nModule: Number Guessing Game
+
+A simple guessing game where the player tries to guess a random number
+between a given range. The game tracks the number of attempts.
+
+Flow:
+  1. Generate random number in range [start, end]
+  2. Prompt user to guess
+  3. Check if guess matches
+  4. Display number of attempts used
+\"\"\"
+
 import random as rd
 
 def check_number(start, end, nb_user):
+    \"\"\"Check if user's guess matches the random number.
+    
+    Args:
+        start (int): Minimum range value
+        end (int): Maximum range value
+        nb_user (int): User's guess
+    
+    Returns:
+        bool: True if guess is correct, False otherwise
+    \"\"\"
     answer = False
     nb_random = rd.randint(start, end)
     if nb_random == nb_user :

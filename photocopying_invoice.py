@@ -1,4 +1,11 @@
-#Structure_conditionnelle_à_choix_multiple___if_..._elif_..._else_...
+"""
+Module: Photocopying Invoice Calculator
+
+Calculates the cost of photocopies with tiered pricing:
+  - 1-10 copies: 0.30 CDF each
+  - 11-30 copies: 0.25 CDF each (after first 10)
+  - 31+ copies: 0.20 CDF each (after first 30)
+"""
 
 valeur = int(input("Entrez le nombre de photocopie a faire : "))
 if valeur <= 10:

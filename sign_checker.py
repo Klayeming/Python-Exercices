@@ -1,4 +1,12 @@
-#Programme_qui_retourne_si_deux_nombres_ont_le_même_signe ou non
+"""
+Module: Sign Checker
+
+Determines whether two numbers have the same sign or different signs.
+
+Logic: If the product of two numbers is positive, they have the same sign.
+If the product is negative, they have different signs.
+"""
+
 A = int(input("Veuillez saisir la valeur du prémier nombre: "))
 B = int(input("Veuillez saisir la valeur du deuxième nombre: "))
 

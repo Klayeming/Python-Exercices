@@ -40,3 +40,11 @@ elif 10 <= Moyenne <= 12:
 elif 0 <= Moyenne < 10:
     print("insuffisant")
 
+# Documentation updated
+
+# Grade Scale:
+#   - 16+: Très Bien (Excellent)
+#   - 14-16: Bien (Good) 
+#   - 12-14: Assez Bien (Fair)
+#  - 10-12: Passable (Acceptable)
+#   - 0-10: Insuffisant (Failing)

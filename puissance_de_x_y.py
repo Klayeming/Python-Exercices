@@ -1,7 +1,12 @@
 """
-Programme qui demande à l'utilisateur de saisir deux reels X et Y, et qui affiche la puissance X^Y
+Module: Power Calculator
+
+Calculates and displays X raised to the power of Y (X^Y).
+
+Formula: Z = X**Y
 """
+
 X = float(input("Veuillez saisir le Premier nombre : "))
-Y = float(input("Veuillez saisir le Premier nombre : "))
+Y = float(input("Veuillez saisir le deuxième nombre (exponent) : ")) 
 Z = X**Y
 print(f"La puissance de {X} au {Y} est {Z}")

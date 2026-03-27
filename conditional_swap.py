@@ -1,4 +1,13 @@
-#Programme_qui_change_contenus_de_deux_variables_selon_une_condition
+"""
+Module: Conditional Variable Swap
+
+Swaps the values of two variables based on the sign of their product.
+
+Logic:
+  - If A*B > 0 (same sign): Simple swap
+  - Otherwise: Set A = sum, B = product
+"""
+
 A = int(input("Veuillez saisir la valeur du prémier nombre: "))
 B = int(input("Veuillez saisir la valeur du deuxième nombre: "))
 

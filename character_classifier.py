@@ -1,7 +1,14 @@
 """
-#24 Ecrire un programme qui verifie si un caractere est alphabetique, numerique ou caractere special
+Module: Character Classifier
+
+Verifies and classifies a character into one of four categories:
+  - Alphabetic letter (a-z, A-Z)
+  - Numeric digit (0-9)
+  - Special character (punctuation)
+  - Unrecognized character
 """
 import string
+
 def charactere_verify(char):
 #ici on met commence par le languge compare le ascii
 #("a" or "A" <=char <= "z" or "Z")

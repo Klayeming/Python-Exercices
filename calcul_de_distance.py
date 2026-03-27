@@ -1,8 +1,12 @@
 """
-Ecrire un programme qui calcule et affiche la distance entre deux points A et B dont les coordonnées(Xa, Ya)
-et (Xb, Yb) sont entrées au clavier comme entiers.
+Module: Euclidean Distance Calculator
+
+Calculates and displays the Euclidean distance between two 2D points.
+
+Formula: d = sqrt((x2-x1)² + (y2-y1)²)
 """
 from math import sqrt
+
 Xa = float(input("Veuillez saisir le coordonnée X du point A : "))
 Ya = float(input("Veuillez saisir le coordonnée Y du point A : "))
 Xb = float(input("Veuillez saisir le coordonnée X du point B : "))

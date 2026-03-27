@@ -1,8 +1,11 @@
 """
-Docstring for python.Exercices.calcul_n_ieme_nombre
-#34 Ecrire un programme qui demande un nombre n et qui calcule le n-ieme nombre de la suite U
-ou {U0=6; Un+1=4Un+10}
+Module: Sequence N-th Term Calculator
+
+Calculates the n-th term of the sequence:
+  U₀ = 6
+  Uₙ₊₁ = 4×Uₙ + 10
 """
+
 def check(n):
     if n>1:
         return n
